@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    max-width: 100%;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.header1 {
+    position: relative;
+    background-image: url('bkgrdimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right top;
+    background-size: 1300px;
+    padding-bottom: 1000px;
+}
+
+.textbox1 {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    left: 200px;
+}
+
+.logobox {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+
+.signinbox {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 1200px;
+}
+
+.blackbkg {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: 1300px;
+    padding-bottom: 1000px;
+}
+
+.heading1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.para1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.para2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#email1 {
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    background-color: rgba(0, 0, 0, 0.756);
+    border-radius: 4px;
+    padding: 19px 77px;
+    font-size: 17px;
+    position: absolute;
+    right: 380px;
+}
+
+a.Alink1:link, a.Alink1:visited {
+    background-color: red;
+    color: white;
+    padding: 13px 40px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    position: absolute;
+    left: 542px;
+}
+
+a.Alink1:hover, a.Alink1:active {
+    background-color: rgb(210, 2, 2);
+    color: white;
+    position: absolute;
+}
+
+a.Alink:link, a.Alink:visited {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: absolute;
+    left: 990px;
+    top: 20px;
+}
+
+a.Alink:hover, a.Alink:active {
+    background-color: rgb(210, 2, 2);
+    color: white;
+    position: absolute;
+}
+
+.heading2 {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+
+.para1a {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+.textbox2 {
+    position: absolute;
+    text-align: center;
+    top: 850px;
+    left: 160px;
+}
+
+.imagebox {
+    position: absolute;
+    left: 660px;
+    top: 770px;
+}
+
+.imagebox1 {
+    position: absolute;
+    left: 160px;
+    top: 1250px;
+}
+
+.textbox3 {
+    position: absolute;
+    text-align: center;
+    top: 1300px;
+    left: 645px;
+}
+
+.textbox4 {
+    position: absolute;
+    text-align: center;
+    top: 1750px;
+    left: 160px;
+}
+
+.imagebox2 {
+    position: absolute;
+    left: 660px;
+    top: 1750px;
+}
+
+.imagebox3 {
+    position: absolute;
+    left: 160px;
+    top: 2150px;
+}
+
+.textbox5 {
+    position: absolute;
+    text-align: center;
+    top: 2200px;
+    left: 645px;
+}
+
+
+.heading1b {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.barrier0 {
+    position: absolute;
+    background-color: rgb(36, 36, 36);
+    padding: 5px 631px;
+    top: 727px;
+}
+
+.barrier1 {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    padding: 4px 631px;
+    top: -800px;
+}
+
+.barrier2 {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    padding: 4px 631px;
+    top: -320px;
+}
+
+.barrier3 {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    padding: 4px 631px;
+    top: 75px;
+}
+
+.barrier4 {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    padding: 4px 631px;
+    top: 550px;
+}
+
+.barrier5 {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    padding: 4px 631px;
+    top: 1350px;
+}
+
+.faqheading {
+    position: relative;
+    top: 610px;
+}
+
+.heading6 {
+    position: relative;
+}
+
+.para2 {
+    text-align: left;
+    color: white;
+    font-size: 24px;
+}
+
+.faq1 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 750px 20px 20px;
+    top: 2730px;
+    left: 155px;
+}
+
+div.faq1:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.faq2 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 609px 20px 20px;
+    top: 2812px;
+    left: 155px;
+}
+
+div.faq2:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.faq3 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 712px 20px 20px;
+    top: 2894px;
+    left: 155px;
+}
+
+div.faq3:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.faq4 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 738px 20px 20px;
+    top: 2976px;
+    left: 155px;
+}
+
+div.faq4:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.faq5 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 616px 20px 20px;
+    top: 3058px;
+    left: 155px;
+}
+
+div.faq5:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.faq6 {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    padding: 20px 668px 20px 20px;
+    top: 3141px;
+    left: 155px;
+}
+
+div.faq6:hover {
+    background-color: rgb(62, 61, 61);
+}
+
+.fa-plus {
+    color: white;
+    text-align: right;
+    position: absolute;
+    left: 880px;
+    top: 17px;
+    font-size: 40px;
+}
+
+.email2 {
+    position: absolute;
+    top: 3260px;
+    left: 80px;
+    width: 400px;
+}
+
+.mailheading {
+    position: absolute;
+    left: 500px;
+    display: inline;
+}
+
+.mail4heading {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    width: 900px;
+    display: inline;
+}
+
+.input4 {
+    position: relative;
+    left: 550px;
+}
+
+.para2mail {
+    text-align: left;
+    color: white;
+    font-size: 21px;
+}
+
+.para4mail {
+    text-align: left;
+    color: white;
+    font-size: 21px;
+}
+
+a.Alink2:link, a.Alink2:visited {
+    background-color: red;
+    color: white;
+    padding: 15px 20px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: absolute;
+    left: 410px;
+}
+
+a.Alink2:hover, a.Alink2:active {
+    background-color: rgb(210, 2, 2);
+    color: white;
+    position: absolute;
+}
+
+#email2 {
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    background-color: rgba(0, 0, 0, 0.756);
+    border-radius: 4px;
+    padding: 19px 77px;
+    font-size: 17px;
+    position: absolute;
+    right: 380px;
+}
+
+footer {
+    padding: 20px 0px 320px 0px;
+    position: relative;
+    top: 1390px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white;
+}
+
+.box1 {
+    text-align: left;
+    position: absolute;
+    left: 155px;
+    top: 22px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.footertext {
+    font-size: 17px;
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+.footertext2 {
+    font-size: 15px;
+    color: lightgrey;
+}
+
+li {
+    font-size: 14px;
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+#lang {
+    font-size: 17px;
+    padding: 5px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    background-color: rgba(38, 38, 38, 0.55);
+    border-radius: 4px;
+    color: white;
+}
+
+.box2 {
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+
+.box3 {
+    text-align: left;
+    position: absolute;
+    left: 650px;
+    top: 60px;
+}
+
+.box4 {
+    text-align: left;
+    position: absolute;
+    left: 900px;
+    top: 60px;
+}
